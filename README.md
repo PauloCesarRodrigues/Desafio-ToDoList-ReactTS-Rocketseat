@@ -27,6 +27,8 @@ Você pode utilizar e testar a aplicação neste link:
 - CSS Modules
 - Vite (para o desenvolvimento do projeto)
 
+
+
 ## Como Rodar o Projeto
 
 Para desenvolver e testar a aplicação localmente, siga os passos abaixo:
@@ -38,18 +40,22 @@ Para desenvolver e testar a aplicação localmente, siga os passos abaixo:
    ```
    
 2. Instale as dependências:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3.Execute a aplicação:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
-#Contribuições
+
+
+##Contribuições
+
 Se você deseja contribuir para o projeto, fique à vontade para abrir um Pull Request ou relatar problemas.
 
-#Licença
+##Licença
+
 Esse projeto é de código aberto e está sob a licença MIT.
 
