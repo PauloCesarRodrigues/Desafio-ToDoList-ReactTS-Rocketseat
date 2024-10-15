@@ -16,7 +16,7 @@ export function Menu(){
   const [taskList, setTaskList] = useState<Task[]>([ 
     {
       id: 9,
-      content: 'Acordar ás 5h30',
+      content: 'Acordar às 5h30',
       completed: false
     },
     {
