@@ -16,3 +16,10 @@ Apesar de serem poucas funcionalidades, houve conceitos conceitos como:
 - Listas e chaves no ReactJS
 - Propriedades
 - Componentização
+
+
+
+Você pode utilizar e testar neste link:
+```
+https://rockeatseat-to-do-list-react-typescript.vercel.app/
+```
