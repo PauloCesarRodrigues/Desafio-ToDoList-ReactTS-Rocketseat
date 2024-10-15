@@ -44,18 +44,18 @@ Para desenvolver e testar a aplicação localmente, siga os passos abaixo:
    npm install
    ```
 
-3.Execute a aplicação:
+3. Execute a aplicação:
    ```bash
    npm run dev
    ```
 
 
 
-##Contribuições
+## Contribuições
 
 Se você deseja contribuir para o projeto, fique à vontade para abrir um Pull Request ou relatar problemas.
 
-##Licença
+## Licença
 
 Esse projeto é de código aberto e está sob a licença MIT.
 
