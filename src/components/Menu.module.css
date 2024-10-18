@@ -160,6 +160,9 @@
     align-items: center;
     gap: 21rem;
   }
+  .NoTasks{
+    width: 35rem;
+  }
 }
 
 @media (max-width:680px) {
@@ -169,5 +172,20 @@
     align-items: center;
     gap: 10rem;
   }
+  .NoTasks{
+    width: 25rem;
+  }
+  .buttonCreate{
+    gap: 0.5rem;
+  }
 }
 
+
+@media (max-width:480px) {
+  .Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}

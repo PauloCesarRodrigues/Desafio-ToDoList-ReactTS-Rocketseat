@@ -28,7 +28,7 @@ export function Menu(){
 
   const [newTaskText, setNewTaskText] = useState('')
 
-  function handleCreateNewComment(event: React.FormEvent<HTMLFormElement>){
+  function handleCreateNewTask(event: React.FormEvent<HTMLFormElement>){
     event?.preventDefault()
     const taskInput = (event.currentTarget as HTMLFormElement).task.value;
     
@@ -49,7 +49,7 @@ export function Menu(){
 
   }
 
-  function handleNewCommentChange(event: React.ChangeEvent<HTMLInputElement>){
+  function handleNewTaskChange(event: React.ChangeEvent<HTMLInputElement>){
     setNewTaskText(event.target.value)
   }
 
@@ -65,14 +65,14 @@ export function Menu(){
   return(
     <div className={styles.box}>
 
-      <form onSubmit={handleCreateNewComment} className={styles.taskBarSection}>
+      <form onSubmit={handleCreateNewTask} className={styles.taskBarSection}>
           <input
             type="text"
             className={styles.taskBar} 
             value={newTaskText}
             placeholder='Adicione uma nova tarefa' 
             name="task"
-            onChange={handleNewCommentChange}
+            onChange={handleNewTaskChange}
           />
           <button type="submit" className={styles.buttonCreate}> Criar <img src={plusIcon} /></button>
       </form>
